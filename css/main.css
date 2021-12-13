@@ -1,0 +1,66 @@
+html {
+    color: #000;
+    line-height: 1.4;
+    height: 100%;
+    font-size: 18px;
+}
+
+body {
+    height: 100%;
+}
+
+.wrapper {
+    max-width: 1024px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+nav {
+    background-color: #222;
+}
+
+nav input {
+    display: none;
+}
+
+nav label {
+    padding: 10px 15px;
+    color: #fff;
+    display: none;
+}
+
+.content {
+    height: 100%;
+    background-color: #9e5a00;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.section {
+    padding-top: 10px;
+}
